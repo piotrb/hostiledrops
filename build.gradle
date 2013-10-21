@@ -1,0 +1,19 @@
+buildscript {
+    repositories { mavenCentral() }
+    dependencies { classpath 'com.github.abrarsyed.gmcp:GMCP:0.8.+' }
+}
+
+apply plugin: "gmcp"
+apply plugin: "scala"
+
+group = 'tpl.hostiledrops'
+version = '0.0.1'
+archivesBaseName = 'HostileDrops'
+
+tasks.withType(ScalaCompile) {
+    scalaCompileOptions.useAnt = false
+}
+
+minecraft {
+    minecraftVersion = '1.6.2'
+}

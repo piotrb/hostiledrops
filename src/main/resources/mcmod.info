@@ -1,0 +1,16 @@
+[
+{
+  "modid": "hostiledrops",
+  "name": "Hostile Drops",
+  "description": "Adds recipes for creating some of the rarer mob drops from fairly expensive resources.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authors": ["piotrb"],
+  "credits": "Authored by piotrb, based on an original idea by Barodas.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
